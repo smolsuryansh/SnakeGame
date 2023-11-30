@@ -3,12 +3,12 @@ import random
 
 GAME_WIDTH = 700
 GAME_HEIGHT = 700
-SPEED = 50
+SPEED = 70
 SPACE_SIZE = 50
 BODY_PARTS = 3
-SNAKE_COLOR = "#00FF00"
+SNAKE_COLOR = "#30803F"
 FOOD_COLOR = "#FF0000"
-BACKGROUND_COLOR = "#000000"
+BACKGROUND_COLOR = "#272928"
 
 class Snake:
     def __init__(self):
@@ -88,6 +88,7 @@ def game_over():
                        font=('consolas',70), text="GAME OVER", fill="red", tag="gameover")
     canvas.create_text(canvas.winfo_width() / 2, canvas.winfo_height() / 2 + 50,
                        font=('consolas', 20), text="Press SPACE to restart", fill="white", tag="restarttext")
+
     restart_button.pack()
 
 def restart_game(event=None):
@@ -110,6 +111,7 @@ score = 0
 direction = 'down'
 
 label = Label(window, text="Score:{}".format(score), font=('consolas', 40))
+label.config(bg="dark grey")
 label.pack()
 
 canvas = Canvas(window, bg=BACKGROUND_COLOR, height=GAME_HEIGHT, width=GAME_WIDTH)
