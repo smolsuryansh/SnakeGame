@@ -16,7 +16,7 @@ This is a simple implementation of the classic Snake game in Java.
 2. Clone the repository:
 
    ```bash
-   git clone https://github.com/your-username/snake-game-java.git
+   git clone https://github.com/smolsuryansh/SnakeGame.git
 
 ![image](https://github.com/smolsuryansh/SnakeGame/assets/144353958/eaff85ad-85b3-4ea5-889c-48d9720b8409)
 
