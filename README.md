@@ -11,7 +11,7 @@ This is a simple implementation of the classic Snake game in Java.
 
 ## How to Run
 
-1. Make sure you have Java installed on your machine.
+1. Make sure you have Python installed on your machine.
 
 2. Clone the repository:
 
